@@ -4,8 +4,8 @@
   "version": "2.1.1",
   "description": "jest snapshot serializer for stripping ANSI escape codes",
   "exports": "./lib/index.js",
-  "repository": "https://github.com/ikatyang/jest-snapshot-serializer-ansi",
-  "homepage": "https://github.com/ikatyang/jest-snapshot-serializer-ansi#readme",
+  "repository": "https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi",
+  "homepage": "https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi#readme",
   "author": {
     "name": "Ika",
     "email": "ikatyang@gmail.com",
