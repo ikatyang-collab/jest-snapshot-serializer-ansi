@@ -1,7 +1,7 @@
 {
   "name": "jest-snapshot-serializer-ansi",
   "type": "module",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "jest snapshot serializer for stripping ANSI escape codes",
   "exports": "./lib/index.js",
   "repository": "https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi",
