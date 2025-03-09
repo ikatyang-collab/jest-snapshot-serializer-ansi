@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.1](https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi/compare/v2.2.0...v2.2.1) (2025-03-09)
+
+### Bug Fixes
+
+- add quotes back ([e5de26b](https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi/commit/e5de26bffdbf3a3504f8fd8b08a3cc560d2a151a))
+
 # [2.2.0](https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi/compare/v2.1.2...v2.2.0) (2025-03-09)
 
 ### Features
