@@ -6,12 +6,12 @@ export function test(value: unknown): boolean {
   return typeof text === 'string' && hasAnsi(text)
 }
 
-export function print(value: unknown) {
+export function print(value: unknown, serialize: (value: unknown) => string) {
   if (value instanceof Error) {
     return `[${value.name}: ${stripAnsi(value.message)}]`
   }
 
-  return stripAnsi(value as string)
+  return serialize(stripAnsi(value as string))
 }
 
 export default { test, print }

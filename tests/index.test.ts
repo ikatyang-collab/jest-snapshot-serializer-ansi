@@ -11,9 +11,9 @@ test('ansi', () => {
 
   expect(red).not.toEqual(text)
   expect(text).toMatchInlineSnapshot(`"text"`)
-  expect(red).toMatchInlineSnapshot(`text`)
-  expect(lowerCased).toMatchInlineSnapshot(`text`)
-  expect(blue).toMatchInlineSnapshot(`text`)
+  expect(red).toMatchInlineSnapshot(`"text"`)
+  expect(lowerCased).toMatchInlineSnapshot(`"text"`)
+  expect(blue).toMatchInlineSnapshot(`"text"`)
 
   expect(new TypeError(red)).toMatchInlineSnapshot(`[TypeError: text]`)
   expect(() => {
