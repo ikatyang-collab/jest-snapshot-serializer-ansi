@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.2.0](https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi/compare/v2.1.2...v2.2.0) (2025-03-09)
+
+### Features
+
+- support strip ansi in error message & unwrap string ([#192](https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi/issues/192)) ([894fe63](https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi/commit/894fe63ec070a7a875a8672ffbe019afe94ca6d3))
+
 ## [2.1.2](https://github.com/ikatyang-collab/jest-snapshot-serializer-ansi/compare/v2.1.1...v2.1.2) (2025-03-08)
 
 ## [2.1.1](https://github.com/ikatyang/jest-snapshot-serializer-ansi/compare/v2.1.0...v2.1.1) (2025-03-08)
