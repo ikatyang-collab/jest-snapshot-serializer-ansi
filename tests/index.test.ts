@@ -17,7 +17,7 @@ test('ansi', () => {
 
   expect(new TypeError(red)).toMatchInlineSnapshot(`[TypeError: text]`)
   expect(() => {
-      throw new TypeError(red);
+    throw new TypeError(red)
   }).toThrowErrorMatchingInlineSnapshot(`[TypeError: text]`)
   expect(new TypeError(red)).toMatchSnapshot()
 })
