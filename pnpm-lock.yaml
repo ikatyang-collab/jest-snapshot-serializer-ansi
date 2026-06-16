@@ -10,7 +10,7 @@ importers:
     dependencies:
       has-ansi:
         specifier: ^6.0.0
-        version: 6.0.0
+        version: 6.0.2
       strip-ansi:
         specifier: ^7.1.0
         version: 7.2.0
@@ -760,8 +760,8 @@ packages:
     resolution: {integrity: sha512-VIZB+ibDhx7ObhAe7OVtoEbuP4h/MuOTHJ+J8h/eBXotJYl0fBgR72xDFCKgIh22OJZIOVNxBMWuhAr10r8HdA==}
     engines: {node: '>=6'}
 
-  has-ansi@6.0.0:
-    resolution: {integrity: sha512-1AYj+gqAskFf9Skb7xuEYMfJqkW3TJ8lukw4Fczw+Y6jRkgxvcE4JiFWuTO4DsoleMvvHudryolA9ObJHJKHWQ==}
+  has-ansi@6.0.2:
+    resolution: {integrity: sha512-vAyM+6+jAYwSwz0/M0jYKfU9AvAMCz0kH791RsUhvMKGUHXled/3FjcQB3YiQ4Astj5srHdb6B2FHGIfZkOQNg==}
     engines: {node: '>=18'}
 
   has-flag@3.0.0:
@@ -2116,9 +2116,9 @@ snapshots:
 
   hard-rejection@2.1.0: {}
 
-  has-ansi@6.0.0:
+  has-ansi@6.0.2:
     dependencies:
-      ansi-regex: 6.1.0
+      ansi-regex: 6.2.2
 
   has-flag@3.0.0: {}
 
